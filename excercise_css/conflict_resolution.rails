@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test the conflict resolution using CSS</title>
+	<style>
+	#mysection {
+	color:green;
+	}	
+	.mycolor
+	{
+	color:blue;
+	}
+	</style>
+	
+</head>
+<body>
+
+	<div>	
+		<section id="mysection" class="mycolor">
+			Solve the conflict resolution.
+		</section>
+	</div>
+
+</body>
+</html>
