@@ -2,53 +2,28 @@
 <html>
 <head>
  <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
  <title> Assignment Solution for module 2</title>
- 	<style>
- 		<p> {
-        font-size:500%;
-        color: red;
-		}
-        </p>
-         #box{
-         	background-color: orange;
-         	border: 5px;
-         }
-         #content{
-         	background-color: yellow;
-         }
-         <body>{
-         	background-color: grey;
-         	margin: 0;
-         	padding: 0;
-         }
-         </body>
-
-     @media <min-width: 992px>
-     {
-     	#box{
-         	background-color: orange;
-         }
-     }
-     @media <max-width: 767px>
-     {
-     	#box{
-         	background-color: orange;
-         }
-     }
-     @media <min-width: 767px> and <max-width: 991px>
-     {
-     	#box{
-         	background-color: orange;
-         }
-     }   
-	</style>
- 
-</head>
+ <link rel="stylesheet" href="style.css">
+ </head>
 <body>
-   	<div id="box">
-	<div id="content">chicken</div>
-	<div id="content">Beef</div>
-	<div id="content">Sushi</div>
-	</div>
+    <h1> Our Menu </h1>
+    <div id="row">
+    <div class="col-lg-4 col-md-6 col-sm-12" id="color1">  <p id="menu1"> Chicken </p>
+    <section id="pad"> This is a list of chicken dishes. Chicken is the most common type of poultry in the world,[1] and was one of the first domesticated animals. Chicken is a major worldwide source of meat and eggs for human consumption. It is prepared as food in a wide variety of ways, varying by region and culture. The prevalence of chickens is due to almost the entire chicken being edible, and the ease of raising them. It was eaten over most of the Eastern hemisphere and a number of different kinds of chicken such as capons, pullets and hens were eaten. It was one of the basic ingredients in the so-called white dish, a stew usually consisting of chicken and fried onions cooked in milk and seasoned with spices and sugar. 
+    </section>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12" id="color2">  <p id="menu2"> Beef    <p>
+    <section id="pad"> Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.[1] Beef is a source of high-quality protein and essential nutrients.[2]
+	Beef skeletal muscle meat can be cut into roasts, short ribs or steak (filet mignon, sirloin steak, rump steak, rib steak, rib eye steak, hanger steak, etc.). Some cuts are processed (corned beef or beef jerky), and trimmings, usually mixed with meat from older, leaner cattle, are ground, minced or used in sausages. 
+    </section>
+    </div>
+
+    <div class="col-lg-4 col-md-12 col-sm-12" id="color3"> <p id="menu3"> Sushi <p>
+    <section id="pad"> Sushi originates in a Southeast Asian dish, known today as nare-zushi – "salted fish"), stored in fermented rice for possibly months at a time. The lacto-fermentation of the rice prevented the fish from spoiling;[1] the rice would be discarded before consumption of the fish.[2] This early type of sushi became an important source of protein for its Japanese consumers. The term sushi comes from an antiquated grammatical form no longer used in other contexts, and literally means "sour-tasting"; the overall dish has a sour and umami or savoury taste.[3] Narezushi is still made in Japan to this day.	
+    </section>
+    </div>
+    </div>  
 </body>
 </html>
