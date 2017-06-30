@@ -3,24 +3,27 @@
   		margin: 0px;
   		}
         body{
-        	margin-right: 1%
+        	
         }
 
         #row
         {
-        
+        width: 100%;
+        padding: 10px
+        }
+        section{
+        	margin-right: 10px; 
         }
       
         @media (min-width: 992px)
         {
           .col-lg-4 {
     		float: left;
+    		position: relative;
     		border: 1px solid blue;
-    	    height: 200px;
-    	    margin-right: 1%;
-			margin-bottom: 2%;
-			text-align: right;
+    		margin-bottom: 2%;
 			}
+
      		  .col-lg-4 {
 			    width: 33.33%;
 			  }
@@ -29,17 +32,15 @@
          	{
             .col-md-6, .col-md-12 {
     		float: left;
+    		position: relative;
     		border: 1px solid green;
-    	    height: 200px;
-			margin-right: 1%;
-			margin-bottom: 2%;
-			text-align: right;
+    	    margin-bottom: 2%;
 			}
 	  		  .col-md-6 {
-			    width: 48%;
+			    width: 50%;
 			  }
 			  .col-md-12 {
-			    width: 97%;
+			    width:100%;
 			  }
 			 }			         
 			@media (max-width: 767px)
@@ -47,13 +48,12 @@
          	.col-sm-12 {
     		float: left;
     		border: 1px solid red;
-    		margin-right: 1%;
+    		position:  relative;
 			margin-bottom: 2%;
-    	    height: 200px;
-    	    text-align: right;
+    	    
 			}
 			  .col-sm-12 {
-			    width: 98%;
+			    width: 100%;
 			  }
 			 }
 
@@ -72,22 +72,35 @@
 			  	background-color: #b266ff;
 			  }
 			  #menu1{
+			  	float: right;
+			  	width: 200px;
 				background: blue;
-				display: inline;
+				margin-bottom: 5px;
+				display: block;
+				text-align: center;
 			  	border:2px solid black;
-			  	text-overflow: normal;
-			  }
+			  	}
 			  #menu2{
+			  	float: right;
+			  	width: 200px;
+			  	text-align: center;
+			  	margin-bottom: 5px;
 			  	background: green;
-			  	display: inline;
+			  	display: block;
 			  	border:2px solid black;
 			  }
 			  #menu3{
+			  	float: right;
+			  	width: 200px;
+			  	text-align: center;
+			  	margin-bottom: 5px;
 			  	background: yellow;
-			  	display: inline;
+			  	display: block;
 			  	border:2px solid black;
 			  }
 			  #pad{
 			  	text-align: left;
+			  	position: relative;
+			  	clear: both;
 			  	padding: 5px;
 			  }

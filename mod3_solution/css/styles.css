@@ -1,0 +1,37 @@
+#nav_header {
+ 	background-color: orange;
+ 	color: black;
+ 	margin-bottom: 0px ;
+	border-radius: 0px;
+	padding-left: 5%;
+}
+
+#nav-list {
+  font-size: 0.5em;
+  text-align: center;
+  }
+
+ #nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#menu_head{
+  text-align: center;
+  font-size: 1.2em;
+  color: black;
+}
+.menu_details{
+ background-color: #CCE5FF;
+ text-align: left;
+ padding-bottom: 10px;	
+ max-width: 90%;
+}
+
+
+
+
+
+
+
+
+
